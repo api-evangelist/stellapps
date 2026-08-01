@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/ on stellapps.com and smartmoo.com
+hosts:
+- host: https://www.stellapps.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://www.smartmoo.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /llms.txt
+    status: 404
+notes: >-
+  No well-known discovery documents are published on either the corporate site
+  (stellapps.com, WordPress) or the SmartMoo platform host (www.smartmoo.com,
+  which serves an Apereo CAS single-sign-on login at /cas/login). Absence
+  recorded as valid probe data; no raw files saved because nothing returned 200.

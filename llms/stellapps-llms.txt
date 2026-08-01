@@ -1,0 +1,27 @@
+# Stellapps
+
+> Stellapps is an end-to-end dairy technology company from Bangalore, India (IIT Madras incubated, founded 2011) that digitizes milk production, milk procurement, and cold-chain management through its SmartMoo full-stack IoT platform. Sensors embedded in milking systems, animal wearables, chilling equipment, and procurement peripherals stream data to the SmartMoo Big Data Cloud, where analytics and machine learning serve dairy farmers, cooperatives, and processors. Stellapps does not publish a public developer portal, API documentation, or client SDKs; its SmartMoo platform is accessed by customers through hosted applications behind a CAS single sign-on (www.smartmoo.com/cas/login).
+
+## Products
+
+- [mooON](https://www.stellapps.com/mooon/): Cattle wearable and herd-management application for preventive health care and nutrition
+- [smartAMCU](https://www.stellapps.com/smart-amcu/): Automated milk collection unit solution for village-level milk procurement
+- [smartCC](https://www.stellapps.com/smartcc/): Chilling-centre management to reduce total-solid loss in procurement
+- [ConTrak](https://www.stellapps.com/contrak/): Cold-chain monitoring and control for milk temperature and volume
+- [mooOpt](https://www.stellapps.com/mooopt/): Data-driven dairy supply-chain optimization insights
+- [mooFlow ERP](https://www.stellapps.com/mooflowerp/): End-to-end workflow ERP for dairy businesses
+- [mooPay](https://www.stellapps.com/moopay/): Financial services (payments, credit, insurance) for rural dairy farmers
+
+## Company
+
+- [Website](https://www.stellapps.com/)
+- [About](https://www.stellapps.com/about/)
+- [News and Events](https://www.stellapps.com/news-events/)
+- [Whitepapers](https://www.stellapps.com/whitepapers/)
+- [Contact / Support](https://www.stellapps.com/contact-us/)
+- [Privacy Policy](https://www.stellapps.com/privacy-policy/)
+- [Platform Login (CAS)](https://www.smartmoo.com/cas/login)
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/stellapps/refs/heads/main/apis.yml): API Evangelist network profile for Stellapps (no public APIs catalogued)

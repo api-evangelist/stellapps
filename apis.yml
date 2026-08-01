@@ -1,7 +1,27 @@
 aid: stellapps
 name: Stellapps
-description: Stellapps is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Stellapps is an end-to-end dairy technology company from Bangalore, India
+  (IIT Madras incubated, founded 2011) that digitizes milk production, milk procurement,
+  and cold-chain management through its SmartMoo full-stack IoT platform. Sensors in
+  milking systems, animal wearables, chilling equipment, and procurement peripherals
+  stream data to the SmartMoo Big Data Cloud for analytics and machine learning serving
+  dairy farmers, cooperatives, and processors, with applications including mooON herd
+  management, smartAMCU and smartCC milk procurement, ConTrak cold-chain monitoring,
+  mooFlow ERP, and mooPay financial services. Stellapps publishes no public developer
+  portal, API documentation, or SDKs; the SmartMoo platform is accessed through hosted
+  applications behind CAS single sign-on.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.stellapps.com/wp-content/themes/stellapps/images/favicon/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/stellapps/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,10 +30,24 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Dairy
+- Internet of Things
+- Agriculture
+- Supply Chain
+- Cold Chain
+- Herd Management
+- Milk Procurement
+- Machine Learning
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +55,31 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/stellapps-domain-security.yml
 - type: Website
   url: https://stellapps.com
+- type: LLMsTxt
+  url: llms/stellapps-llms.txt
+- type: Blog
+  url: https://www.stellapps.com/news-events/
+- type: BlogRSS
+  url: https://www.stellapps.com/feed/
+- type: Support
+  url: https://www.stellapps.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.stellapps.com/privacy-policy/
+- type: Login
+  url: https://www.smartmoo.com/cas/login
+- type: Whitepapers
+  url: https://www.stellapps.com/whitepapers/
+- type: Careers
+  url: https://www.stellapps.com/career/
+- type: Twitter
+  url: https://twitter.com/stellapps
+- type: Facebook
+  url: https://www.facebook.com/stellapps
+- type: LinkedIn
+  url: https://www.linkedin.com/company/stellapps-technologies-private-limited/
+- type: YouTube
+  url: https://www.youtube.com/channel/UCBUXSFZYjCVJdeR1EjfzNLA
