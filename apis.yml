@@ -10,6 +10,17 @@ description: Stellapps is an end-to-end dairy technology company from Bangalore,
   mooFlow ERP, and mooPay financial services. Stellapps publishes no public developer
   portal, API documentation, or SDKs; the SmartMoo platform is accessed through hosted
   applications behind CAS single sign-on.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
