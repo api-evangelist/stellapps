@@ -57,7 +57,7 @@ tags:
 - Cold Chain
 - Herd Management
 - Milk Procurement
-- Machine-Learning
+- Machine Learning
 - India
 tags_raw:
 - Company
@@ -70,6 +70,7 @@ tags_raw:
 - Milk Procurement
 - Machine Learning
 - India
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
